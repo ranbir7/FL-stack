@@ -3,5 +3,5 @@ tasks:
     command: npm run dev
 ports:
   - port: 5173
-    visibility: private
+    onOpen: open-browser
     
